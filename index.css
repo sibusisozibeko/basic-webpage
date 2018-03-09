@@ -1,0 +1,151 @@
+.container{
+  width: 80%;
+}
+img {
+  width: 200px;
+  height: 200px;
+transform: rotate(90deg);
+}
+.header{
+  float: left;
+}
+
+.heading{
+  text-align: center;
+}
+.heading1{
+  display: inline-block;
+  width: 40%;
+  margin: 0;
+  padding: 0;
+}
+.pictures{
+  width: 40%;
+  float: right;
+  margin: 0;
+  padding: 0;
+  clear: both;
+}
+.bhayi{
+float: left;
+
+padding: 2px;
+}
+
+.bhayi img{
+  padding-right: 3%;
+  transform: rotate(1deg);
+
+}
+.city{
+  width: 100%;
+  display: inline-block;
+  margin-top: 10%;
+}
+/*.column img{
+  transform: rotate(90deg);
+}*/
+ h1 {
+  margin-bottom: 20px;
+align-items: center;
+float: center;
+}
+li {
+  padding: 5px;
+  font-size: 16px;
+}
+table{
+    border-collapse: collapse;
+}
+td, th {
+  border: 2px solid black;
+}
+.box{
+  width: 30%;
+}
+.history{
+  vertical-align: left;
+}
+
+.foreign-language-section{
+  width: 100%;
+  display: inline-block;
+  margin: top;
+}
+.boxes{
+  content: "";
+  display: inline-block;
+  clear: both;
+
+}
+.box-1{
+  float: left;
+  width: 33.33%;
+  overflow:hidden;
+}
+body{
+  background-color: grey;
+}
+.box-2{
+  float: left;
+  width: 33.33%;
+  overflow:hidden;
+}
+.box-3{
+  float: left;
+  width: 33.33%;
+  overflow:hidden;
+}
+.history{
+  width: 45%;
+  display: inline-block;
+}
+.image{
+  width: 45%;
+  float: right;
+  clear: both;
+  margin-top: 3%;
+}
+
+
+
+
+
+
+
+@media(max-width: 1000px){
+.box-1{
+  width: 100%;
+  font-size: 16px;
+}
+.box-2{
+  width: 100%;
+  font-size: 16px;
+}
+.box-3{
+  width: 100%;
+  font-size: 16px;
+}
+}
+/*@media(max-width: 400px){
+  .heading1{
+    width: 100%;
+    font-size: 16px;
+  }
+
+
+.picture{
+  width: 100%;
+
+} */
+
+@media(max-width: 400px) {
+  .heading1{
+    width: 100%;
+    font-size: 16px;
+}
+  .pictures{
+    width: 100%;
+    font-size: 16px;
+  }
+}
